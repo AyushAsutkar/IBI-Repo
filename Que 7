@@ -1,0 +1,8 @@
+//Use Array.reduce() method to reverse the following given array
+
+const Array= [1, 2, 3, 4, 5];
+
+const reversedArr = Array.reduce((accumulator, i) => {
+  accumulator.unshift(i);
+  return accumulator;
+}, []);
